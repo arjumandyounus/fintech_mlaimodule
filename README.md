@@ -21,18 +21,19 @@ finance domain. For each article compute the proportion of postive words and pro
 negative words as follows:
 
 
-      <div aign="center">
+      <div align="center">
             <strong>Proportion of positive words = Number of positive words from list/Total number of unique words</strong>
       </div>
 <div align="center">
             <strong>Proportion of negative words = Number of negative words from list/Total number of unique words</strong>
 </div>
-Use these proportions as features for prediction of company’s performance on the basis of return on
-equity and net profit margin as follows:
-(return on equity > 0.6 and net profit margin > 0.4) or return on equity>0.8
-then performance is good
-(return on equity <= 0.6 and net profit margin <= 0.4) or return on equity<0.2
-then performance is bad
+Use these proportions as features for prediction of company’s performance on the basis of return on equity and net profit margin as follows:
+<div align="center">
+<strong>(return on equity > 0.6 and net profit margin > 0.4) or return on equity>0.8 then performance is good</strong>
+</div>
+<div align="center">
+<strong>(return on equity <= 0.6 and net profit margin <= 0.4) or return on equity<0.2 then performance is bad</strong>
+</div>
 For the prediction part of the assignment, it is mandatory to use sentiment assigned (already given
 for first 11 days and predicted for last 3 days as part of Q(1) above), proportion of positive words
 and proportion of negative words as features. Use two algorithms namely logistic regression and
