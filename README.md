@@ -19,6 +19,8 @@ articles.
 2) Within files positivewords.txt and negativewords.txt are sets of positive and negative words for
 finance domain. For each article compute the proportion of postive words and proportion of
 negative words as follows:
+
+
       <div aign="center">
             <strong>Proportion of positive words = Number of positive words from list/Total number of unique words</strong>
       </div>
