@@ -19,10 +19,12 @@ articles.
 2) Within files positivewords.txt and negativewords.txt are sets of positive and negative words for
 finance domain. For each article compute the proportion of postive words and proportion of
 negative words as follows:
-<p style="text-align: center;">
-      Proportion of positive words = Number of positive words from list/Total number of unique words
-      Proportion of negative words = Number of negative words from list/Total number of unique words
-</p>
+      <div aign="center">
+            <strong>Proportion of positive words = Number of positive words from list/Total number of unique words</strong>
+      </div>
+<div align="center">
+            <strong>Proportion of negative words = Number of negative words from list/Total number of unique words</strong>
+</div>
 Use these proportions as features for prediction of company’s performance on the basis of return on
 equity and net profit margin as follows:
 (return on equity > 0.6 and net profit margin > 0.4) or return on equity>0.8
