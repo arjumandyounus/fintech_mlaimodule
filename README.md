@@ -34,9 +34,7 @@ Use these proportions as features for prediction of company’s performance on t
 <div align="center">
 <strong>(return on equity <= 0.6 and net profit margin <= 0.4) or return on equity<0.2 then performance is bad</strong>
 </div>
-For the prediction part of the assignment, it is mandatory to use sentiment assigned (already given
-for first 11 days and predicted for last 3 days as part of Q(1) above), proportion of positive words
-and proportion of negative words as features. Use two algorithms namely logistic regression and
-random forests for the prediction part; use first 11 days as trainin set and last 3 days as test set. You
-are free to be creative and add more features such as proportion of adjectives (which can be done
-using nltk).
+
+For the prediction part of the assignment, it is mandatory to use sentiment assigned (already given for first 11 days and predicted for last 3 days as part of Q(1) above), proportion of positive words and proportion of negative words as features. Use two algorithms namely logistic regression and random forests for the prediction part; use first 11 days as trainin set and last 3 days as test set. You are free to be creative and add more features such as proportion of adjectives (which can be done using nltk).
+      
+The final submission needs to be a project report with details about most informative features from Q (2) above. Please include any details of additional features you have come up with along with any additional words you may have added to the list of positive and negative words. Also include a discussion section on why you think textual analytics and sentiment analysis in particular helps or hinders a company; illustrate with examples from this project.
