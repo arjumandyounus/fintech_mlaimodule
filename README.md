@@ -10,8 +10,7 @@ except the last 3 days as they serve as our test set.
 2) The file Tesla_KPI.csv contains information about the company Tesla and key performance
 indicators mainly return on equity and net profit margin for each of the 14 days in our sample.
 3) The files postivewords.txt and negativewords.txt contain respectively a list of positive and
-negative words for the finance domain.
-Your analysis needs to be made up of the following steps:
+negative words for the finance domain. Your analysis needs to be made up of the following steps:
 
 
 
