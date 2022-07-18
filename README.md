@@ -10,14 +10,17 @@ except the last 3 days as they serve as our test set.
 2) The file Tesla_KPI.csv contains information about the company Tesla and key performance
 indicators mainly return on equity and net profit margin for each of the 14 days in our sample.
 3) The files postivewords.txt and negativewords.txt contain respectively a list of positive and
-negative words for the finance domain. Your analysis needs to be made up of the following steps:
+negative words for the finance domain. 
+
+
+Your analysis needs to be made up of the following steps:
 
 
 
-1. News articles for the last three days do not have a sentiment assigned; use the Naive Bayes
+Q1. News articles for the last three days do not have a sentiment assigned; use the Naive Bayes
 algorithm of scikit-learn discussed in class on 22nd November, 2021 to assign a sentiment to these
 articles.
-2. Within files positivewords.txt and negativewords.txt are sets of positive and negative words for
+Q2. Within files positivewords.txt and negativewords.txt are sets of positive and negative words for
 finance domain. For each article compute the proportion of postive words and proportion of
 negative words as follows:
 
