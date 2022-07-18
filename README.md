@@ -23,8 +23,7 @@ negative words as follows:
 
       <div align="center">
             <strong>Proportion of positive words = Number of positive words from list/Total number of unique words</strong>
-      </div>
-<div align="center">
+
             <strong>Proportion of negative words = Number of negative words from list/Total number of unique words</strong>
 </div>
 Use these proportions as features for prediction of company’s performance on the basis of return on equity and net profit margin as follows:
