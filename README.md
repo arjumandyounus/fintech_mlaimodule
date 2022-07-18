@@ -16,11 +16,10 @@ negative words for the finance domain.
 Your analysis needs to be made up of the following steps:
 
 
-
-Q1. News articles for the last three days do not have a sentiment assigned; use the Naive Bayes
+1. News articles for the last three days do not have a sentiment assigned; use the Naive Bayes
 algorithm of scikit-learn discussed in class on 22nd November, 2021 to assign a sentiment to these
 articles.
-Q2. Within files positivewords.txt and negativewords.txt are sets of positive and negative words for
+2. Within files positivewords.txt and negativewords.txt are sets of positive and negative words for
 finance domain. For each article compute the proportion of postive words and proportion of
 negative words as follows:
 
